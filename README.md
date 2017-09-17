@@ -30,8 +30,8 @@ do your own config
 >make
 
 >dd if=/dev/zero of=rootfs.img seek=<the size you like> bs=1024 count=0
->fdisk rootfs.img
 >./format.sh
+>fdisk rootfs.img
 >mkdir rootfs
 >./mount.sh
 >./genroot.py
