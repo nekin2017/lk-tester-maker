@@ -29,7 +29,7 @@ put all files to root of kernel source tree
 do your own config
 >make
 
->dd if=/dev/zeor of=rootfs.img seek=<the size you like> bs=1024 count=0
+>dd if=/dev/zero of=rootfs.img seek=<the size you like> bs=1024 count=0
 >fdisk rootfs.img
 >./format.sh
 >mkdir rootfs
